@@ -1,0 +1,9 @@
+.addressInfo__title{
+    text-align: center;
+    margin-top: 10.5;
+}
+.addressInfo div{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}

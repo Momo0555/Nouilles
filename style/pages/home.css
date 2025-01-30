@@ -1,0 +1,46 @@
+.navbar__items :active
+
+.address{
+    margin-top: 2rem;
+
+}
+.address__carousel{
+    display: flex;
+    justify-content: center;
+    gap: 7.18rem;
+    margin-bottom: 4rem;
+}
+
+.expertise p{
+    padding: 0rem 8.8125rem;
+}
+
+.contact__info p{
+    padding: 0rem 12rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.media__image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.entete{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 13rem;
+    margin-left: 13rem;
+    gap: 7.563rem;
+}
+.CTA{
+    margin-bottom: 2.25rem;
+}

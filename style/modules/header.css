@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+header img{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+header nav{
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar__items{
+    font-size: var(--title-font-size);
+    font-family: var(--title-font);
+    color: var(--black);
+}
+
+.navbar__items:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--red-highlight);
+    text-decoration-thickness: 0.2rem;
+    text-decoration: underline;
+    text-decoration-color: var(--red-highlight);
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.2rem;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-color: var(--red-highlight);
+    text-decoration-thickness: 0.2rem;
+    text-decoration: underline;
+    text-decoration-color: var(--red-highlight);
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.2rem;
+}

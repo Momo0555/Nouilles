@@ -1,0 +1,70 @@
+:root{
+    /*color*/
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    /* Colors */
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --black: #000000;
+    --white: #FFFFFF;
+
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+
+}
+
+h1{
+    font-family: var(--header-font);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    font-weight: var(--header-font-weight);
+}
+
+h2{
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    font-weight: var(--title-font-weight);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--red-highlight);
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    font-family: var(--body-font);
+    font-weight: var(--body-font-weight);
+}
+
+.click{
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
