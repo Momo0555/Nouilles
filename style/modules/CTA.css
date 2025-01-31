@@ -9,8 +9,9 @@
     padding: 0.5rem 1.5rem;
     background-color: var(--black);
     color: var(--white);
+    margin-top: 0.5rem;
+
 }
 .CTA p{
     color: var(--white);
-    margin-bottom: 0.5rem;
 }
