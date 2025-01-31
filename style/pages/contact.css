@@ -1,20 +1,9 @@
-.addressInfo{
-    margin-top: 5rem;
-    margin-bottom: 10rem;
-}
 .addressInfo__title{
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-top: 10.5;
 }
 .addressInfo div{
     display: flex;
     justify-content: center;
     gap: 2.5rem;
-}
-.contact__info{
-    margin-bottom: 5rem;
-}
-.contact__info p{
-    text-align: center;
-    margin: 0rem 5rem;
 }
