@@ -1,0 +1,45 @@
+.CTA{
+    margin-top: 2rem;
+}
+.contact__info{
+    margin: 4.5rem 8rem;
+    text-align: center;
+}
+.menu{
+    margin: 2.25rem 9.688rem;
+}
+.entrees{
+    background-color: var(--white);
+    margin-left: 9.688rem;
+    margin-right: 9.688rem;
+    text-align: center;
+}
+
+.entreesInfo{
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+}
+
+.entrees div p{
+    margin: 0.3rem 0rem;
+}
+
+.entrees h2{
+    margin-bottom: 2.5rem;
+    margin-top: 4rem;
+}
+
+.entrees img{
+    height: 6rem;
+    width: 6rem;
+    margin-top: 4rem;
+}
+.entrees__type{
+    padding-bottom: 5rem;
+}
+.entrees__plats{
+    margin-bottom: 4rem;
+}
+.communs{
+    color: var(--red-highlight);
+}
