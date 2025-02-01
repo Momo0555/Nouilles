@@ -4,6 +4,9 @@
     margin-top: 2rem;
 
 }
+.address__titles {
+    margin-top: 2rem;
+}
 .address__carousel{
     display: flex;
     justify-content: center;
@@ -40,6 +43,10 @@
     margin-right: 13rem;
     margin-left: 13rem;
     gap: 7.563rem;
+}
+.entete div{
+    margin-bottom: 5rem;
+    margin-top: 4rem;
 }
 .CTA{
     margin-bottom: 2.25rem;
