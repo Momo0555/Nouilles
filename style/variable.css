@@ -33,6 +33,20 @@
     --title-line-height: 1.75rem;
 
 }
+@media screen and (max-width: 768px) {
+    :root{
+        --body-font-size: 1rem;
+        --body-highlight-font-size: 1rem;
+        --header-font-size: 2.5rem;
+        --title-font-size: 1.25rem;
+
+        --body-line-height: 1.5rem;
+        --body-highlight-line-height: 1.5rem;
+        --header-line-height: 5.375rem;
+        --title-line-height: 1.75rem;
+    }
+}
+
 
 h1{
     font-family: var(--header-font);

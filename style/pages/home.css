@@ -9,6 +9,7 @@
 }
 .address__carousel{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 7.18rem;
     margin-bottom: 4rem;
@@ -40,6 +41,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
     margin-right: 13rem;
     margin-left: 13rem;
     gap: 7.563rem;
@@ -50,4 +52,36 @@
 }
 .CTA{
     margin-bottom: 2.25rem;
+}
+@media screen and (max-width: 992px) {
+    .entete{
+        flex-direction: column;
+    }
+   
+    .media__image{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .media__image{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 435px) {
+    .expertise p{
+        padding: 0rem 5rem;
+    }
+    .contact__info p{
+        padding: 0rem 8rem;
+        margin-bottom: 4rem;
+    }
+}
+@media screen and (max-width: 361px) {
+    .expertise p{
+        padding: 0rem 1rem;
+    }
+    .contact__info p{
+        padding: 0rem 2rem;
+    }
 }
